@@ -1,8 +1,11 @@
 /* Start Variables */
 :root {
-  --main-color: #2196f3;
-  --padding-block: 60px;
   --main-transition: 0.3s;
+  --main-color: #2196f3;
+  --main-color-hover: #1787e0;
+  --main-color-fa: #fafafa;
+  --main-color-section: #ececec;
+  --main-padding: 100px;
 }
 /* End Variables */
 
@@ -11,6 +14,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
 }
 h1,
 h2,
@@ -22,6 +28,7 @@ h6 {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 html {
   scroll-behavior: smooth;
